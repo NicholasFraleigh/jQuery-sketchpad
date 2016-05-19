@@ -81,6 +81,14 @@ var setup = function(total, width, paradigm){
 			colour = "#"+colour;
         	$(this).css('background', colour)
     	});
+	} else if (paradigm === "follow"){
+		$(".square").mouseenter(function() {
+			$(this).fadeTo(0,1);
+        	$(this).css('background', '#000');
+        	$(this).fadeTo(800,0);
+        	//$(this).css('background', '#fff');
+        	
+    	});
 	}
 	
 
