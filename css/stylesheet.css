@@ -7,10 +7,6 @@ body{
 	display: inline-block;
 }
 
-.square:hover{
-	background-color: black;
-}
-
 #container{
 	width: 800px;
 	border: solid;
