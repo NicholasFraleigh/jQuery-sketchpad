@@ -3,6 +3,10 @@ body{
 	background-color: lightgray;
 }
 
+form{
+	padding: 0em 0.5em 0.5em 0.5em;
+}
+
 .square{
 	border: none;
 	display: inline-block;
@@ -16,7 +20,8 @@ body{
     border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
-    background-color: grey;
+    background-color: #80b3ff;
+    border: solid;
 }
 
 .center{
@@ -25,11 +30,7 @@ body{
 }
 
 .style-all{
-	margin: 5px auto 5px auto;
-}
-
-.back{
-	background-color: green;
+	margin: 1em auto 1em auto;
 }
 
 .reset_button{
@@ -39,23 +40,29 @@ body{
 
 .intro{
 	line-height: 1;
-	margin: 1em auto 1em auto;
+	margin: 2.5em auto 1em auto;
     width: 600px;
     padding: 0.5em 1em 0.5em 1em;
     text-align:left;
     border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
-    background-color: grey;
+    background-color: #80b3ff;
+    border: solid;
 }
  
 #container{
 	width: 800px;
-	border: solid;
+	border: solid 4px;
 	margin:auto;
 	background-color: white;
+	border-radius: 7px;
 }
 
 #intro-text{
 	padding: 0.5em 1em 0.5em 1em;
+}
+
+#footy{
+	text-align:center;
 }

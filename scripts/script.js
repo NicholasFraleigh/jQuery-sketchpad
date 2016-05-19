@@ -16,7 +16,11 @@ $(document).ready(function(){
 			alert("Sorry, maximum is 128 rows. Creating largest possible sketchpad.");
 			width = 128;
 		};
+
 		reset(width);
+		$('html,body').animate({
+        	scrollTop: $("#container").offset().top}, 'slow');
+		
 	});
 	
 });
@@ -86,8 +90,7 @@ var setup = function(total, width, paradigm){
 			$(this).fadeTo(0,1);
         	$(this).css('background', '#000');
         	$(this).fadeTo(800,0);
-        	//$(this).css('background', '#fff');
-        	
+        	//$(this).css('background', '#fff');    	
     	});
 	}
 	
