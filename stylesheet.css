@@ -1,0 +1,18 @@
+body{
+	line-height: 0;
+}
+
+.square{
+	border: none;
+	display: inline-block;
+}
+
+.square:hover{
+	background-color: black;
+}
+
+#container{
+	width: 800px;
+	border: solid;
+	margin:auto;
+}
